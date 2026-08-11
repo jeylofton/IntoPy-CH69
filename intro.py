@@ -87,11 +87,10 @@ print("The last time I went to " + place + ", i had a greate time " + activity +
 print(f"The last time I went to {place}, and i had a great time {activity}; with all {members} friends.")
 
 # Multi-line f-string
-print(f"""The last time I went to {place}, and i
-                 had a great time 
+print(f"""The last time I went to {place}, and i had a great time 
 {activity}; with all {members}
 
- friends.""")
+friends.""")
 
 # Type Function
 print(type(name))  # string
